@@ -1,6 +1,5 @@
-namespace SimpleBank
-{
-    // The User class remains as the data model, now stored only in the application's memory
+
+    // The User class remains as the data model, stored only in the application's memory
     public class User
     {
         private string id;
@@ -23,4 +22,3 @@ namespace SimpleBank
 
         public void SetBalance(double balance) => this.balance = balance;
     }
-}
